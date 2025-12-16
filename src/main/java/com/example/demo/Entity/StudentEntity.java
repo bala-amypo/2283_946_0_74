@@ -8,16 +8,24 @@ public class StudentEntity
     {
         return Id;
     }
-    public void setId()
+    public void setId(Id)
     {
-        this
+        this.Id=Id;
     }
     public String getName()
     {
         return Name;
     }
+    public void setName(Name)
+    {
+        this.Name=Name;
+    }
     public int getAge()
     {
         return Age;
+    }
+    public void setAge(Age)
+    {
+        this.Age=Age;
     }
 }
