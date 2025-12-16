@@ -1,4 +1,5 @@
 package com.example.demo.Entity;
+import jakarta.persistence.*;
 public class StudentEntity
 {
     private int Id;
@@ -36,6 +37,6 @@ public class StudentEntity
     }
     public StudentEntity()
     {
-        
+
     }
 }
