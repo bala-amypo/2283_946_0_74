@@ -28,4 +28,14 @@ public class StudentEntity
     {
         this.Age=Age;
     }
+    public StudentEntity(int Id,String Name,int Age)
+    {
+        this.Id=Id;
+        this.Name=Name;
+        this.Age=Age;
+    }
+    public StudentEntity()
+    {
+        
+    }
 }
