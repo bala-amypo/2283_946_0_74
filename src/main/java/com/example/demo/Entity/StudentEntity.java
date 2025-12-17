@@ -3,6 +3,8 @@ import jakarta.persistence.*;
 @Entity
 public class StudentEntity
 {
+    @Id
+    @GeneratedValue(strategy=GenerationType.IDENTITY)
     private int Id;
     private String Name;
     private int Age;
@@ -32,7 +34,6 @@ public class StudentEntity
     }
     public StudentEntity(int Id,String Name,int Age)
     {
-        this.Id=Id;
         this.Name=Name;
         this.Age=Age;
     }
