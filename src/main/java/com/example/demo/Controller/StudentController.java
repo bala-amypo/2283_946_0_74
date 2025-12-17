@@ -23,7 +23,7 @@ public class StudentController {
     }
 
     @GetMapping("/fetche")
-    public List<StudentEntity> fetchrecord(){
-        return ser.fetchrecord();
+    public List<StudentEntity> fetchRecord(){
+        return ser.fetchRecord();
     }
 }

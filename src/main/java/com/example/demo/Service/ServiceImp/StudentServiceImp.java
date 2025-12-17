@@ -11,7 +11,7 @@ public class StudentServiceImp implements StudentService
 {
     @Autowired
     StudentRep aa;
-    @override
+    @Override
     public StudentEntity createData(StudentEntity ss)
     {
         return aa.save(ss);
