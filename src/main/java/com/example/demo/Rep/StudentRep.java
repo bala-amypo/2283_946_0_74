@@ -1,1 +1,4 @@
-public interface StudentRep extends JpaRepository<StudentEntity>
+package com.example.demo.Rep;
+public interface StudentRep extends JpaRepository<StudentEntity,Integer>{
+
+}

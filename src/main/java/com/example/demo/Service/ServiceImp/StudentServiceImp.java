@@ -1,3 +1,5 @@
+package com.example.demo.Service.ServiceImp;
+
 @Service
 public class StudentServiceImp implements StudentService
 {
