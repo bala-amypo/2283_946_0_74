@@ -4,10 +4,13 @@ public class StudentServiceImp implements StudentService
     @Autowired
     StudentRep aa;
     @override
-    public Student createData(Student ss)
+    public StudentEntity createData(StudentEntity ss)
     {
         return aa.save(ss);
     }
-    public Student 
+    public List<StudentEntity>fetchRecord()
+    {
+        return aa.findAll();
+    }  
 
 }

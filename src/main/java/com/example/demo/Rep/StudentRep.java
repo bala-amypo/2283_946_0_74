@@ -1,0 +1,1 @@
+public interface StudentRep extends JpaRepository<StudentEntity>

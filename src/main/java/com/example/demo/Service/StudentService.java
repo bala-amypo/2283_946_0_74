@@ -3,6 +3,6 @@ import java.util.List;
 import com.example.demo.Entity.StudentEntity;
 public interface StudentService
 {
-    Student createData(Student stu);
-    List<Student>fetchRecord();
+    StudentEntity createData(StudentEntity stu);
+    List<StudentEntity>fetchRecord();
 }
