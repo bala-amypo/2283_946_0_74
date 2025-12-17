@@ -20,3 +20,4 @@ return ser.createData(stu);
 public List<Student> fetchRecord(){
 return ser.fetchRecord();
 }
+}
