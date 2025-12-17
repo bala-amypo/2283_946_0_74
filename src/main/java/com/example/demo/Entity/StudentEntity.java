@@ -13,7 +13,7 @@ public class StudentEntity
     {
         return Id;
     }
-    public void setId(Id)
+    public void setId(int Id)
     {
         this.Id=Id;
     }
@@ -21,7 +21,7 @@ public class StudentEntity
     {
         return Name;
     }
-    public void setName(Name)
+    public void setName(String Name)
     {
         this.Name=Name;
     }
@@ -29,7 +29,7 @@ public class StudentEntity
     {
         return Age;
     }
-    public void setAge(Age)
+    public void setAge(int Age)
     {
         this.Age=Age;
     }
